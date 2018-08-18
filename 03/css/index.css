@@ -1,0 +1,245 @@
+*{
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+ul{
+	list-style: none;
+}
+ul li{
+	float: left;
+}
+#top-bg{
+	width: 100%;	height: 70px;
+	min-width: 960px;
+	background: linear-gradient(180deg,#ffca8f,#f7b47d);
+	/*从上往下线性渐变*/
+}
+#top {
+	width: 960px;height: 70px;
+	margin: 0 auto;
+	background: url(../img/光晕.png) no-repeat;
+}
+#top  img{
+	padding:5px 0 0 50px;
+}
+#top  span{
+	display: inline-block;
+	line-height: 70px;
+	height: 70px;
+	padding: 0 20px;
+	color: #895e2e;
+	font-size: 14px;
+}
+#top  span a{
+	display: inline-block;
+	padding: 0 20px;
+	color: #de0808;
+	font-size: 16px;	font-weight: bold;
+	background: url(../img/收藏.png) no-repeat center;
+}
+/*nav*/
+#nav-bg{
+	width: 100%;	height: 70px;
+	min-width: 960px;
+	height: 37px;
+	background: url(../img/nav-bg.png);
+}
+#nav{
+	width: 960px;height: 37px;
+	margin: 0 auto;
+}
+#nav ul li a{
+	display: block;
+	width: 120px;height: 37px;
+	text-align: center;
+	line-height: 37px;	
+	color: #855e35;
+	font-size: 16px;
+	font-weight:700 ;
+}
+
+#nav ul li a:hover{
+	background: rgba(91,45,42,0.3) 
+	        url(../img/导航图标.png) no-repeat top;
+	color: #424242;
+}
+#wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+#banner {
+	width: 960px;height: 414px;
+	background: url(../img/pic.png);
+}
+#banner h4{
+	font: 48px/1.5 "微软雅黑";
+	color: #7c5121;
+	padding-top: 150px;
+	padding-left: 600px;
+}
+#banner h5{
+	font-family: "Segoe Script";
+	color: #7c5121;
+	padding-left: 600px;
+}
+/*advantage   优势*/
+#advantage{
+	background: url(../img/bg2.gif);
+}
+#advantage ul{
+	width: 960px;height: 80px;
+}
+#advantage ul li{
+	position: relative;
+	width: 33.33%;height: 80px;
+	color: #845949;
+	margin-bottom: 4px;
+	background: url(../img/修饰多边形.png) no-repeat 40px 7px;
+}
+#advantage  h3{
+	font:bold 18px "微软雅黑" ;
+	padding: 20px 0 0 30px;
+	background: url(../img/list.png) no-repeat 10px 28px;
+}
+#advantage  p{
+	font-size: 16px;
+	padding-left: 30px;
+}
+#advantage .details{
+	position: absolute;
+	top:35px;
+	left:220px;
+}
+#advantage .details a{
+	display: block;
+	color:  #845949;
+	font:bold 14px "微软雅黑" ;
+}
+
+#advantage .details span{
+	font: 12px "微软雅黑" ;
+}
+#main{
+	width: 960px;height: 270px;
+}
+#main .left{
+	width: 314px;
+}
+#main h3{
+	height: 33px;
+	font-size: 16px;
+	line-height: 33px;
+	color: #1e3650;
+	font-weight: bold;
+	background: #d8d4d3;
+	padding-left: 20px;
+}
+#main .left p{
+	font:12px "微软雅黑";
+	padding: 10px;
+	text-indent: 2em;
+}
+#main .left>a{
+	display: block;
+	color: #1e3650;
+	font-size: 12px;
+	padding-right: 15px;
+}
+#main .left .bottom{
+	width: 314px;height: 100px;
+	background-image: url(../img/奖杯1.png),url(../img/奖杯2.png),url(../img/奖杯1.png);
+	background-repeat: no-repeat;
+	background-position: 0 5px,30px 30px,260px 5px;
+	margin-top:15px;
+}
+#main .left .bottom h4{
+	font-size: 20px;
+	padding: 15px 0 9px 70px;
+}
+#main .left .bottom a{
+	font-size: 16px;
+	width: 150px;height: 34px;
+	background: red;
+	display: block;
+	margin: 0 auto ;
+	border-radius: 10px;
+	color: #fff;
+	line-height: 34px;
+	text-align: center;
+}
+#main .center{
+	width: 314px;
+	margin: 0 9px;
+}
+#main .center img{
+	width: 157px; height: 100px;
+	float: left;
+	margin-top: 9px;
+}
+#main .right{
+	width: 314px;
+}
+#main .right img{
+	width: 314px;height: 209px;
+	margin-top: 9px;
+}
+#bottom{
+	width: 960px;height: 230px;
+	background: url(../img/bottom-bg.png);
+}
+#bottom .left{
+	width: 400px;
+	color: #85594a;
+	font-weight: bold;
+	line-height: 2;
+	padding: 25px 40px;
+}
+#bottom  h3{
+	font-size: 14px;
+}
+#bottom  p{
+	font-size: 12px;
+}
+#bottom .right{
+	width: 560px;height: 160px;
+	border-left: 2px solid #9fb0c4;
+	color: #85594a;
+	font-weight: bold;
+	line-height: 2;
+	margin-top:25px;
+	padding:0 30px 0 110px;
+}
+#footer{
+	width: 960px;height: 95px;
+	background: url(../img/footer-bg.png);
+	border-top: 2px dashed #bead8e;
+}
+#footer ul{
+	width: 530px;height: 50px;
+	margin: 0 auto;
+	color: #1e3650;
+	font-size: 14px;
+	font-weight: bold;
+}
+#footer ul li{
+	padding: 0 8px;
+	line-height: 50px;
+}
+#footer p{
+	color: #1e3650;
+	font-size: 12px;
+	text-align: center;
+}
